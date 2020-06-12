@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="20dp"
+    android:weightSum="20"
+    >
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:src="@drawable/back"
+        android:onClick="goToBack"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="19"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+
+            <TextView
+                android:id="@+id/t1ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="App Name:"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="29sp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/t2ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Corona Doctor"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:src="@drawable/line" />
+
+            <TextView
+                android:id="@+id/t3ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Corona Doctor is a mobile application works based on actual symptoms of COVID-19 virus. This Application just make a prediction. Don't get scared. If it says high rate of getting infected. follow the given steps."
+                android:gravity="center"
+                android:textColor="#ffffff"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:src="@drawable/line" />
+
+            <TextView
+                android:id="@+id/t4ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Version Name:"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="29sp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/t5ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="alfa"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:src="@drawable/line" />
+
+            <TextView
+                android:id="@+id/t6ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Version:"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="29sp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/t7ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="v1.0"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:src="@drawable/line" />
+
+
+            <TextView
+                android:id="@+id/t8ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Built Date:"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="29sp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/t9ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="23 . 03 . 2020"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:src="@drawable/line" />
+
+
+            <TextView
+                android:id="@+id/t10ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Copyright:"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="29sp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/t11ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AfnanulCoder"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:src="@drawable/line" />
+
+
+            <TextView
+                android:id="@+id/t12ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Country:"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="29sp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/t13ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bangladesh"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

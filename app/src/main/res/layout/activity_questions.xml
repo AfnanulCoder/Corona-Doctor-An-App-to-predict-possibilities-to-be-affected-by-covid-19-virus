@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Questions"
+    android:background="@drawable/background"
+    android:padding="20dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/qsn1LayoutID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="@drawable/round_corner_colorful_shape"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/what_is_it"
+                    android:layout_alignParentRight="true"
+                    android:onClick="WhatIsIt1"
+                    />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/qsn1ID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="What Is Your Age?"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:id="@+id/qsn1AnswerID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/qsn2LayoutID"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="@drawable/round_corner_colorful_shape"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/what_is_it"
+                    android:layout_alignParentRight="true"
+                    android:onClick="WhatIsIt2"
+                    />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/qsn2ID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Do You Have a Fever?"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <RadioButton
+                    android:id="@+id/qsn2AnswerYesID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes             "
+                    />
+
+
+                <RadioButton
+                    android:id="@+id/qsn2AnswerNoID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/qsn3LayoutID"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="@drawable/round_corner_colorful_shape"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/what_is_it"
+                    android:layout_alignParentRight="true"
+                    android:onClick="WhatIsIt3"
+                    />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/qsn3ID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Do You Have Shortness of Breath?"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <RadioButton
+                    android:id="@+id/qsn3AnswerYesID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes             "
+                    />
+
+
+                <RadioButton
+                    android:id="@+id/qsn3AnswerNoID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/qsn4LayoutID"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="@drawable/round_corner_colorful_shape"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/what_is_it"
+                    android:layout_alignParentRight="true"
+                    android:onClick="WhatIsIt4"
+                    />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/qsn4ID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Do you have colds cough with snivel?"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <RadioButton
+                    android:id="@+id/qsn4AnswerYesID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes             "
+                    />
+
+
+                <RadioButton
+                    android:id="@+id/qsn4AnswerNoID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/qsn5LayoutID"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="@drawable/round_corner_colorful_shape"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/what_is_it"
+                    android:layout_alignParentRight="true"
+                    android:onClick="WhatIsIt5"
+                    />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/qsn5ID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Do you have sore throat or have difficulty swallowing?"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <RadioButton
+                    android:id="@+id/qsn5AnswerYesID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes             "
+                    />
+
+
+                <RadioButton
+                    android:id="@+id/qsn5AnswerNoID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/qsn6LayoutID"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="@drawable/round_corner_colorful_shape"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/what_is_it"
+                    android:layout_alignParentRight="true"
+                    android:onClick="WhatIsIt6"
+                    />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/qsn6ID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Did you come from any Foreign Countries in Last 20 Days?"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <RadioButton
+                    android:id="@+id/qsn6AnswerYesID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes             "
+                    />
+
+
+                <RadioButton
+                    android:id="@+id/qsn6AnswerNoID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/qsn7LayoutID"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="@drawable/round_corner_colorful_shape"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/what_is_it"
+                    android:layout_alignParentRight="true"
+                    android:onClick="WhatIsIt7"
+                    />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/qsn7ID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Have You Been Close to any Corona(COVID-19) Virus Infected Person or someone hailed from overseas?"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <RadioButton
+                    android:id="@+id/qsn7AnswerYesID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes             "
+                    />
+
+
+                <RadioButton
+                    android:id="@+id/qsn7AnswerNoID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/qsn8LayoutID"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="@drawable/round_corner_colorful_shape"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/what_is_it"
+                    android:layout_alignParentRight="true"
+                    android:onClick="WhatIsIt8"
+                    />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/qsn8ID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Do You Have any Diabetic or Heart Problem?"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <RadioButton
+                    android:id="@+id/qsn8AnswerYesID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes             "
+                    />
+
+
+                <RadioButton
+                    android:id="@+id/qsn8AnswerNoID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    />
+
+            </RadioGroup>
+
+        </LinearLayout>
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/next"
+                android:layout_marginBottom="100dp"
+                android:layout_alignParentRight="true"
+                android:onClick="NextQuestionButton"
+                />
+            
+        </RelativeLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

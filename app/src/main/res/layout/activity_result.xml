@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:background="@drawable/background"
+    android:padding="20dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="130dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/logo"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/youHaveTvID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You Have"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/thePercetageShowTvID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="30%"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="45sp"
+            />
+
+        <TextView
+            android:id="@+id/chanceTVID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="chance to be infected in corona virus"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/happyFaceID"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/face_happy"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/sadFaceID"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/face_sad"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/normalFaceID"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/face_normal"
+                android:visibility="gone"
+                />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/theStateShowTvID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="It is a MILD chance"
+            android:gravity="center"
+            android:textColor="#00FF00"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            />
+
+        <TextView
+            android:id="@+id/theSuggShowTvID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You Must to Be Home Quarantined.\nDrink Liquid, Eat Fruits and Stay Safe."
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            />
+
+        <TextView
+            android:id="@+id/predictionTvID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is Just a Prediction.\nNot any Tested Result."
+            android:gravity="right"
+            android:textColor="#03A9F4"
+            android:layout_marginTop="25dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:weightSum="2.5"
+            >
+
+            <Button
+                android:id="@+id/getReadyButtonID"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner_colorful_shape"
+                android:text="Get Ready for COVID-19?"
+                android:textAllCaps="false"
+                android:padding="20dp"
+                android:onClick="HowToPrevent"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="0dp"/>
+
+
+            <Button
+                android:id="@+id/whatToDoButtonID"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_corner_colorful_shape"
+                android:text="What To Do if You Are Sick?"
+                android:textAllCaps="false"
+                android:padding="20dp"
+                android:onClick="HowToGetHelp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:weightSum="2.5"
+            >
+
+            <Button
+                android:id="@+id/checkAgainButtonID"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Check Again"
+                android:background="@drawable/round_corner_colorful_shape"
+                android:padding="10dp"
+                android:textStyle="italic"
+                android:textAllCaps="false"
+                android:onClick="CheckAgain"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="0dp"/>
+
+
+            <Button
+                android:id="@+id/takeScreenShotButtonID"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Take Screenshot"
+                android:background="@drawable/round_corner_colorful_shape"
+                android:padding="10dp"
+                android:textStyle="italic"
+                android:textAllCaps="false"
+                android:onClick="ScreenShot"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

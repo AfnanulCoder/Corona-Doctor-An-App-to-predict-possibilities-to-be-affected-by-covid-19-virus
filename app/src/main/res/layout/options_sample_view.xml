@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".StartingActivity">
+
+    <Button
+        android:id="@+id/saveDataOnlineID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:text="Save Your Health Data Online"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="SaveDataOnline"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/aboutID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:text="About"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="GoToAbout"
+        />
+
+    <Spinner
+        android:id="@+id/languageSpinnerID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/changeLanguageID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:text="Change Language"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="ChangeLanguage"
+        />
+
+
+
+</LinearLayout>

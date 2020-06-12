@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/loading3ID"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/loading3"
+            android:layout_alignParentLeft="true"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/loading4ID"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/loading4"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            />
+
+
+        <ImageView
+            android:id="@+id/loading5ID"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/loading5"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="140dp"
+            android:visibility="gone"
+            />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        >
+
+        <ImageView
+            android:id="@+id/loading1ID"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/loading1"
+            android:layout_alignParentLeft="true"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/loading2ID"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/loading2"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="50dp"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

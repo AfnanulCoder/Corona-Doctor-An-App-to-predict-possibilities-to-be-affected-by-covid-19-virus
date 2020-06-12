@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HowToPrevent"
+    android:background="@drawable/background"
+    android:animateLayoutChanges="true"
+    >
+
+    <LinearLayout
+        android:id="@+id/layout_enID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/p1ID"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/p1"
+            android:background="@drawable/round_corner_colorful_shape"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/p2ID"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/p2"
+            android:background="@drawable/round_corner_colorful_shape"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/p3ID"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/p3"
+            android:background="@drawable/round_corner_colorful_shape"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/p4ID"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/p4"
+            android:background="@drawable/round_corner_colorful_shape"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/p5ID"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/p5"
+            android:background="@drawable/round_corner_colorful_shape"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/p6ID"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/p6"
+            android:background="@drawable/round_corner_colorful_shape"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/p7ID"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/p7"
+            android:background="@drawable/round_corner_colorful_shape"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/p8ID"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/p8"
+            android:background="@drawable/round_corner_colorful_shape"
+            android:layout_marginBottom="10dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
